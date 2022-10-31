@@ -1,1 +1,29 @@
+class-A IP Address: 10.0.0.X
+Subnet Mask: 255.0.0.0(assigned by default when IP address is entered)  ~32 bits (first 8 bits for host 24 bits after that for network)
 
+Types of cables used:
+1) copper straight - strong black, without breaks
+2) copper crossever - strong black with breaks
+
+Types of lights used:
+1) green - physical link is up and is the correct connection
+2) red - physical link is down and is the wrong connection
+3) Amber - 
+
+Types of PDU's used:
+1) Simple - system defined specifications
+2) Complex - the user can define specifications
+
+
+Reference for further info ~ file:///C:/Program%20Files%20(x86)/Cisco%20Packet%20Tracer%206.2sv/help/default/index.htm
+
+
+Instructions for the LAB:
+1. Add a node(generic)
+2. Add a server
+[1 & 2 are under lab devices]
+3. Click on deivce, under config lab - set the IP address (10.0.0.1) and the Subnet Mask(255.0.0.0) is set by default.
+4. Connect using copper crossover connection. It should show green light at both the ends.
+5. Add a simple PDU.
+5. Auto-capture the transfer.
+6. Save the file.
