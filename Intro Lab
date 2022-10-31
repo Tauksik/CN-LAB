@@ -1,5 +1,5 @@
 class-A IP Address: 10.0.0.X
-Subnet Mask: 255.0.0.0(assigned by default when IP address is entered)  ~32 bits (first 8 bits for host 24 bits after that for network)
+Subnet Mask: 255.0.0.0(assigned by default when IP address is entered) = 32 bits (first 8 bits for host 24 bits after that for network)
 
 Types of cables used:
 1) copper straight - strong black, without breaks
